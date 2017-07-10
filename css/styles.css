@@ -1,0 +1,301 @@
+@charset "UTF-8";
+body, html {
+  min-height: 100vh;
+  min-width: 100%;
+  margin: 0;
+  overflow-x: hidden; }
+
+.pure-g {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.helloScrn {
+  height: 100vh;
+  width: 100%;
+  min-height: 800px;
+  background-color: black;
+  display: block;
+  background: url(/img/helloBG.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .helloScrn .logo {
+    width: 100%; }
+  .helloScrn .header {
+    padding-top: 20px; }
+  .helloScrn ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white; }
+  .helloScrn .menu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px; }
+  .helloScrn a {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px !important;
+    font-weight: 100;
+    display: inline-block;
+    padding: 5px 5px 0 0;
+    text-decoration: none; }
+  .helloScrn .helloTxt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px; }
+
+.priem {
+  height: 650px;
+  width: 100%;
+  transform: skewy(-5deg) translateY(-130px);
+  background-color: white;
+  overflow: hidden; }
+  .priem .skewFix {
+    background: url(/img/priemBG.jpg);
+    /* Добавляем фон */
+    background-size: cover;
+    padding-top: 35px;
+    transform: skewy(5deg);
+    height: 130%;
+    width: 100%;
+    margin-top: -130px;
+    padding-top: 170px;
+    text-align: center; }
+  .priem ul {
+    list-style: none;
+    padding: 0;
+    color: black; }
+  .priem .icons {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto; }
+  .priem p {
+    margin: 25px; }
+
+.prices {
+  height: 700px;
+  width: 100%;
+  transform: skewy(-5deg) translateY(-130px);
+  background-color: red;
+  overflow: hidden; }
+  .prices .skewFix {
+    background: url(/img/priceBG.jpg) no-repeat;
+    /* Добавляем фон */
+    background-size: cover;
+    padding-top: 35px;
+    transform: skewy(5deg);
+    height: 130%;
+    width: 100%;
+    margin-top: -130px;
+    padding-top: 170px;
+    text-align: center; }
+  .prices p {
+    color: white; }
+  .prices .underlined {
+    border-bottom: 3px solid #ffd800; }
+  .prices .compPrice {
+    position: relative; }
+  .prices h3 {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+
+.testom {
+  padding-bottom: 50px;
+  padding-top: 270px;
+  background-color: red;
+  margin-top: -250px;
+  background: url(/img/otzvBG.jpg) no-repeat;
+  /* Добавляем фон */
+  background-size: cover;
+  height: 300px; }
+
+.txtDivSkew {
+  position: relative;
+  padding: 25px 0 30px;
+  /* Old browsers */
+  background-image: url("/img/plash.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+footer {
+  background-color: #000;
+  padding-top: 17px;
+  padding-bottom: 17px; }
+
+.map {
+  height: 400px;
+  background-image: url("/img/map.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%; }
+  .map h2 {
+    color: black;
+    letter-spacing: -2px; }
+  .map .skewFix {
+    padding-top: 35px;
+    transform: skewy(5deg) translateY(-120px);
+    width: 100%;
+    margin-top: -130px;
+    padding-top: 170px;
+    text-align: center; }
+
+body h1 {
+  font-family: 'Exo 2', sans-serif;
+  color: #ffd800;
+  font-weight: 800;
+  margin: 0 !important;
+  font-size: 70px;
+  font-style: italic; }
+
+p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px !important;
+  font-weight: 100;
+  margin: 0;
+  letter-spacing: normal; }
+
+h3 {
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 30px;
+  text-decoration: line-through;
+  font-weight: 500;
+  font-style: italic;
+  margin: 0; }
+
+h6 {
+  color: white !important;
+  margin: 0px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 29px !important;
+  font-weight: 800; }
+
+.name {
+  color: white;
+  font-size: 23px !important;
+  font-weight: 100; }
+
+.markBlack {
+  color: black !important; }
+
+.markWhite {
+  color: white !important; }
+
+.markYellow {
+  color: #ffd800 !important; }
+
+.mt15 {
+  margin: 15px 0 0 0; }
+
+.mt25 {
+  margin: 25px 0 0 0; }
+
+.mt50 {
+  margin-top: 50px; }
+
+.txtLeft {
+  text-align: left; }
+
+.txtRight {
+  text-align: right; }
+
+.txtCenter {
+  text-align: center; }
+
+.pure-xs-hide {
+  dispay: block; }
+
+@media (max-width: 760px) {
+  .pure-xs-hide {
+    dispay: none; }
+  .helloScrn {
+    height: 70vh; }
+    .helloScrn .logo {
+      width: 160%; }
+  h1 {
+    font-size: 30px !important; }
+  h2 {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px !important;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0; }
+  p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 15px !important;
+    font-weight: 100;
+    margin: 0;
+    letter-spacing: normal; }
+  h3 {
+    font-size: 15px;
+    opacity: 0.5; } }
+
+@media (min-width: 768px) {
+  .pure-g {
+    width: 750px; }
+  .pure-xs-hide {
+    dispay: block; }
+  h2 {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px !important;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0; }
+  h3 {
+    font-size: 20px; }
+  .helloScrn {
+    height: 70vh; } }
+
+@media (min-width: 992px) {
+  .pure-g {
+    width: 970px; }
+  h3 {
+    font-size: 20px; } }
+
+@media (min-width: 1200px) {
+  .pure-g {
+    width: 1170px; }
+  body h1 {
+    font-family: 'Exo 2', sans-serif;
+    color: #ffd800;
+    font-weight: 800;
+    margin: 0 !important;
+    font-size: 40px;
+    font-style: italic; }
+  h3 {
+    font-size: 20px; }
+  h2 {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px !important;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0; } }
+
+@media (min-width: 1900px) {
+  .pure-g {
+    width: 1800px; }
+  .logo {
+    width: 80% !important; }
+  body h1 {
+    font-family: 'Exo 2', sans-serif;
+    color: #ffd800;
+    font-weight: 800;
+    margin: 0 !important;
+    font-size: 70px;
+    font-style: italic; }
+  h2 {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px !important;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0; } }
