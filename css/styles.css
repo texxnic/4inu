@@ -48,7 +48,7 @@ body, html {
     height: 600px; }
 
 .priem {
-  height: 650px;
+  height: 950px;
   width: 100%;
   transform: skewy(-5deg) translateY(-130px);
   background-color: white;
@@ -212,6 +212,8 @@ h6 {
   dispay: block; }
 
 @media (max-width: 760px) {
+  .prices {
+    height: 400px; }
   .pure-xs-hide {
     dispay: none; }
   .helloScrn {
@@ -251,6 +253,12 @@ h6 {
     margin: 0; }
   h3 {
     font-size: 20px; }
+  p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 17px !important;
+    font-weight: 100;
+    margin: 0;
+    letter-spacing: normal; }
   .helloScrn {
     height: 70vh; } }
 
